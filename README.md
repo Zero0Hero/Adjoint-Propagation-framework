@@ -29,6 +29,7 @@ multitest = 5
 And assign values to specific parameters in the loop.
 ```
 config.RNN_t2sta = M_range[iM]
+config.RNN_t2sta2 = M_range[iM]
 config.RNN_SR = ParaRange[iPara]
 ```
 At the final figure, the legends represent the 'M_range' and the axis x represent the 'ParaRange'. 
