@@ -1,5 +1,5 @@
 # Adjoint Propagation (AP) Framework
-
+Paper at https://www.researchsquare.com/article/rs-6759684/v1
 ## Environments
 ```
 python = 3.9.20
