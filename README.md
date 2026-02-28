@@ -1,7 +1,24 @@
 # Adjoint Propagation (AP) Framework
 
-Paper at https://www.researchsquare.com/article/rs-6759684/v1
+Zhuo Liu (CTTC, SME, USTC) et al.
 
+Our paper has been accepted by eLife. (https://doi.org/10.7554/eLife.108237)
+
+Please cite as:
+```bibtex
+@article{zhuo2026,
+   author = {Liu, Zhuo and Shu, Hao and Wang, Linmiao and Meng, Xu and Wang, Yousheng and Li, Xuancheng and Wang, Wei and Chen, Tao},
+   title = {Adjoint propagation of error signal through modular recurrent neural networks for biologically plausible learning},
+   journal = {eLife},
+   volume = {15},
+   pages = {e108237},
+   ISSN = {2050-084X},
+   DOI = {10.7554/eLife.108237},
+   url = {https://doi.org/10.7554/eLife.108237},
+   year = {2026},
+   type = {Journal Article}
+}
+```
 ## Environments
 ```
 python = 3.9.20
@@ -44,4 +61,5 @@ Codes
 ```
 class FRNN_ML4(torch.nn.Module):
 ```
+
 define the network structure and show how forward and feedback information flows in the network.
